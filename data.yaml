@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['blackhead', 'nodule', 'papule', 'pustule', 'whitehead']
+
+roboflow:
+  workspace: skin-lj9yp
+  project: acne_v3
+  version: 9
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/skin-lj9yp/acne_v3/dataset/9
