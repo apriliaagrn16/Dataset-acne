@@ -1,6 +1,6 @@
-train: ../train/images
-val: ../valid/images
-test: ../test/images
+train: /content/Dataset-acne/train/images
+val: /content/Dataset-acne/valid/images
+test: /content/Dataset-acne/test/images
 
 nc: 5
 names: ['blackhead', 'nodule', 'papule', 'pustule', 'whitehead']
